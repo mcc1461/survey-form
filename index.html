@@ -3,34 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/mcc_icon_v4.svg" type="image/x-icon" />
+   <link rel="stylesheet" href="style.css">
     <title>Survey Form</title>
 </head>
 <body>
     <main id="container">
         <header>
-            <h1 id="title">NET<span>FLIX</span></h1>
+            <h1 class="title"><span class="first letter">N</span>ET<span id="title2"><span class="second letter">F</span>LIX</span></h1>
             <h3 id="description">Thank you for signing up at Netflix. Tell us more about yourself.</H3>
         </header>
-        <form action="" id="survey-form">
+        <form action="./result.html" id="survey-form">
             <div class="box">
                 <label for="name">Name</label><br>
-                <input type="text" name="name" id="name" placeholder="Enter your name">
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
             </div>
             <br>
             <div class="box">
                 <label for="age">Age</label><br>
-                <input type="number" name="age" id="age" placeholder="Age" min="18" max="120">
+                <input type="number" name="age" id="age" placeholder="Age" min="18" max="120" required>
             </div>
             <br>
             <div class="box">
                 <label for="email">E-mail</label><br>
-                <input type="email" name="email" id="email" placeholder="Enter your e-mail">
+                <input type="email" name="email" id="email" placeholder="Enter your e-mail" required>
             </div>
             <br>
             <div class="box">
-                <label for="cars">Content Type</label> <br>
-                <select id="content" name="cars">
+                <select id="content" name="content">
                   <option value="series">Series</option>
                   <option value="movies">Movies</option>
                   <option value="tvShows">TV Shows</option>
@@ -38,25 +38,42 @@
                 </select> 
             </div>
             <br>
-            <div class="box">
+            <div class="box checkbox">
                 <label for="movie">Movie Type</label><br>
-                <input type="checkbox" name="movie" id="movie" placeholder="Enter your e-mail">  Comedy <br>
-                <input type="checkbox" name="movie" id="movie" placeholder="Enter your e-mail">  Action <br>
-                <input type="checkbox" name="movie" id="movie" placeholder="Enter your e-mail" checked>  Romance <br>
+                <div class="comedy">
+                    <label for="comedy">
+                        <input type="checkbox" name="comedy" id="comedy">  Comedy
+                    </label> <br>
+                </div>
+                <div class="action">
+                    <label for="action">
+                        <input type="checkbox" name="action" id="action" >  Action 
+                    </label><br>
+                </div>
+                <div class="romance">
+                    <label for="romance">
+                        <input type="checkbox" name="romance" id="romance">  Romance <br>
+                    </label>
+                </div>
             </div>
             <br>
-            <div class="box">
-                <label for="Gender">Gender</label><br>
-                <input type="radio" name="gender" id="gender"> Male <br>
-                <input type="radio" name="gender" id="gender"> Female<br>
+            <div class="box radio">
+                <label class="genders">Gender</label>
+                <br>
+                <div id="dfemale">
+                    <label id="lfemale"><input id="ffemale" class="gender female" type="radio" name="Gender"> Female</label> <br>
+                </div>
+                <div id="dmale">
+                    <label id="lmale"><input id="mmale" class="gender male" type="radio" name="Gender"> Male</label> <br>
+                </div>
             </div>
             <br>
             <div class="box">
                 <label for="feedback">Feedback</label><br>
                 <textarea name="feedback" id="feedback" cols="30" rows="5" placeholder="Any comment"></textarea>
             </div>
-            <div class="button">
-                <a type="Submit" href="./result.html">Submit</a>
+            <div class="container-button">
+                <button id="button" >Submit</button>
             </div>
         </form>
     </main>
