@@ -19,8 +19,7 @@ Project aims to create survey form within html and css.
 ```
 
 ## Outcome
-<hr>
-### [Project Live](https://www.mcc1461.com/survey)
+###[Project Live](https://www.mcc1461.com/survey)
 
 ### Project Gif
 <img src="assets/survey.gif" alt="Project Gif" width="300">
