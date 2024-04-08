@@ -20,9 +20,11 @@ Project aims to create survey form within html and css.
 
 ## Outcome
 
-![Project Gif](assets/survey.gif)
+
 
 ![Project Live](http://www.mcc1461.com/survey)
+
+![Project Gif](assets/survey.gif)
 
 ## Objective
 
