@@ -1,5 +1,5 @@
 <p>by coskuncelebi<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+  src="/assets/mcc_icon_v4.svg"  width="15px"></p>
 
 # Project-001 :Survey Form (HC-01)
 
