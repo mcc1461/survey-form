@@ -21,7 +21,7 @@ Project aims to create survey form within html and css.
 ## Outcome
 [### Project Live](https://www.mcc1461.com/survey)
 
-<div style="font-size:30px;"><a href="https://www.mcc1461.com/survey">Project Live</a></div>
+<div style="font-size:48px; font-weight: bold"><a href="https://www.mcc1461.com/survey">Project Live</a></div>
 
 
 ### Project Gif
