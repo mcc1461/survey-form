@@ -1,4 +1,4 @@
-<h4 align="right" fontStyle="italic" >by coskuncelebi<img 
+<h4 align="right">by coskuncelebi <img 
   src="/assets/mcc_icon_v4.svg"  width="15px"></h4>
 
 # Project-001 :Survey Form (HC-01)
@@ -20,7 +20,9 @@ Project aims to create survey form within html and css.
 
 ## Outcome
 
-![Project  Snapshot](./project_01.png)
+![Project  Live](www.mcc1461.com/survey)
+![Project Gif](<img src="assets/survey.gif">)
+
 
 ## Objective
 
@@ -39,9 +41,6 @@ Functionally create a Survey Form as in the image above
 - CSS Properties for Texts-Font Families-Links
 - CSS Hover, shadow and after effects.
 
-## Resources
-
--  [Background Image Url](./background_image.jpg)
 
 
 <p align="center"> &#8987; <strong>Happy Coding</strong>  &#9997; </p>
