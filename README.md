@@ -1,5 +1,5 @@
-<p>by coskuncelebi<img align="right"
-  src="/assets/mcc_icon_v4.svg"  width="15px"></p>
+<h2 align="right">by coskuncelebi<img 
+  src="/assets/mcc_icon_v4.svg"  width="15px"></h2>
 
 # Project-001 :Survey Form (HC-01)
 
