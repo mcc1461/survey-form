@@ -1,7 +1,7 @@
 <h4 align="right">by coskuncelebi <img 
   src="/assets/mcc_icon_v4.svg"  width="15px"></h4>
 
-# Project-001 :Survey Form (HC-01)
+# Project: Survey Form
 
 ## Description
 Project aims to create survey form within html and css.
